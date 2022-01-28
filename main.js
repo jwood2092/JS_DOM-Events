@@ -28,6 +28,10 @@ let node2 = document.getElementsByClassName("node2")
 
 // TODO: Remove the "New Child Node"
 
+
+
+
+
 /*----------- Exercise #4: ANIMATIONS ----------- */
 // TODO: Write your JavaScript here to make the red box go from left to right
  let interval = setInterval(move, 10);
