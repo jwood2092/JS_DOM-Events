@@ -2,8 +2,11 @@ console.log("Script attached");
 /*----------- Exercise #1: SELECTING/MANIPULATING ELEMENTS -----------*/
 
 // Select Node #1 and change the text to: "I used the getElementById("node1") method to access this"
-
+"I used the getElementById("node1") method to access this"
+let node1 = document .getElementById("node1");
+node1.textcontent = "This si what html looks like <span> SpanText </span>";
 // Select Node #2 and change the text to: "I used the getElementByClassName("node2") method to access this" */
+let node2 = document.getElementsByClassName("node2")
 
 // Select ALL the h3 tags and change the text to: "I used the getElementByTagName("h3") method to access all of these" */
 
@@ -27,13 +30,28 @@ console.log("Script attached");
 
 /*----------- Exercise #4: ANIMATIONS ----------- */
 // TODO: Write your JavaScript here to make the red box go from left to right
-// let interval = setInterval(move, 10);
+ let interval = setInterval(move, 10);
+ let box = document.getElementById("box");
+ let container = document.getElementById("container");
+ let posx = 0;
+ let posy = 0;
+ let isx = true; 
+ let dir = 1;
+
+ function animate(){
+     switch (true)
+ }
 
 // BONUS - Make the red box go all the way around the perimeter of the green box
 
 /*----------- Exercise #5: DOM EVENTS --------------*/
 
-// TODO: write a function called "show" which creates a new div with an alerting message to the user with this message
+// TODO: write a function called "show"
+funcion Show() { 
+document.getElement
+}
+//which creates a new div with an alerting message to the user with this message
+
 // -> "Clicking the button triggers the onclick event, which calls the JS function show()... which alerts the user"
 // This div should be a 'modal' that covers the main content on the screen
 // BONUS: The modal popup should be able to be closed. Refactor for this functionality
